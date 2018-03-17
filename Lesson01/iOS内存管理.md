@@ -31,7 +31,7 @@
 ### [苹果的实现](https://opensource.apple.com/source/objc4/objc4-723/runtime/)
 - 散列表
 
-### ARC下的规则
+## ARC下的规则
 1. 不能使用alloc/retain/release/autorelease(ARC直接使用C语言函数)
 2. 不能使用NSAllocateObject/NSDeallocateObject
 3. 须遵守内存管理的方法命名规则
@@ -51,7 +51,7 @@
 - 在访问附有__weak修饰符的变量时，实际上必定要访问注册到autoreleasepool的对象
 - id的指针或对象的指针在没有显式指定时会被附加上__autoreleasing修饰符（NSError）
 - 与属性修饰符的关系（保留新值，释放旧值，设置实例变量）
-### 不要使用retainCount
+## 不要使用retainCount
 - 考虑autorealease
 - 在保留计数还是1的时候可能就回收了
 
