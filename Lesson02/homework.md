@@ -12,4 +12,4 @@
 ####level3
 二选一：
 1. 使用RunTime为Category添加属性。思考怎样为Category添加weak修饰的属性给出详细方案或demo。
-2. 对课件上的第四题做出详细解释，要求同level4
+2. 对课件上的第四题做出详细解释，要求同level1
