@@ -313,13 +313,13 @@ dispatch_resuem(queue);
 Dispatch Semaphore是持有计数的信号，该计数是多线程编程中的计数类型信号。计数为0时等待，计数为1或大于1时，减去1而不等待。
 
 ```objective-c
-Dispatch_semaphore_t semaphore = dispatch)semaphore_create(1);		
+Dispatch_semaphore_t semaphore = dispatch_semaphore_create(1);		
 ```
 
 生成Dispatch Semaphore，参数表示计数的初始值。
 
 ```objective-c
-Dispatch）semaphore_wait(semaphore,DISPATCH_TIME_FOREVER);
+Dispatch_semaphore_wait(semaphore,DISPATCH_TIME_FOREVER);
 ```
 
 函数等待Dispatch Semaphore的计算值到达大于或等于1。当计数值大于等于1，或者在待机中计数值大于或等于1时，对该计数进行减法并从dispatch_semaphore_wait函数返回。第二个参数等待时间。
