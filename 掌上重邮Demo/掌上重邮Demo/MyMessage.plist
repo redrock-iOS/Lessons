@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>image</key>
+			<string>ic_me_sign</string>
+			<key>title</key>
+			<string>每日签到</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>image</key>
+			<string>ic_me_store</string>
+			<key>title</key>
+			<string>积分商城</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>ic_me_help</string>
+			<key>title</key>
+			<string>问一问</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>ic_me_question</string>
+			<key>title</key>
+			<string>帮一帮</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>ic_me_draft</string>
+			<key>title</key>
+			<string>草稿箱</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>image</key>
+			<string>ic_me_relate_me</string>
+			<key>title</key>
+			<string>与我相关</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>image</key>
+			<string>ic_me_setting</string>
+			<key>title</key>
+			<string>设置</string>
+		</dict>
+	</array>
+</array>
+</plist>
