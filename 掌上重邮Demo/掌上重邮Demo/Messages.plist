@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>data</key>
+	<dict>
+		<key>class</key>
+		<string>01141707班</string>
+		<key>classNum</key>
+		<string>01141707</string>
+		<key>college</key>
+		<string>通信与信息工程学院</string>
+		<key>gender</key>
+		<string>女</string>
+		<key>grade</key>
+		<string>2017</string>
+		<key>idNum</key>
+		<string>010685</string>
+		<key>major</key>
+		<string>0114</string>
+		<key>name</key>
+		<string>丁磊</string>
+		<key>stuNum</key>
+		<string>2017210338</string>
+	</dict>
+	<key>info</key>
+	<string>success</string>
+	<key>status</key>
+	<integer>200</integer>
+</dict>
+</plist>

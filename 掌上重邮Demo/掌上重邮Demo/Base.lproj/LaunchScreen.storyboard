@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="4096" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="3LU-VQ-YEe">
+                                <rect key="frame" x="16" y="44" width="343" height="734"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3LU-VQ-YEe" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="6T5-zX-DUD"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="3LU-VQ-YEe" secondAttribute="bottom" id="I4u-9r-0dh"/>
+                            <constraint firstItem="3LU-VQ-YEe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="J29-Uc-j1a"/>
+                            <constraint firstItem="3LU-VQ-YEe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="3.5" id="Vhk-Df-adV"/>
+                            <constraint firstItem="3LU-VQ-YEe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="10" id="aVF-pk-bki"/>
+                            <constraint firstItem="3LU-VQ-YEe" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="dYl-On-lMr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3LU-VQ-YEe" secondAttribute="trailing" id="ePP-C8-bGe"/>
+                            <constraint firstItem="3LU-VQ-YEe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sGs-dW-aBx"/>
+                            <constraint firstItem="3LU-VQ-YEe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vqF-BQ-98q"/>
+                            <constraint firstItem="3LU-VQ-YEe" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="ziv-71-jZR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.799999999999997" y="372.86356821589209"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash" width="750" height="1334"/>
+    </resources>
+    <color key="tintColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+</document>
